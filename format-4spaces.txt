@@ -1,4 +1,4 @@
-kjkmacpro:sumatrapdf kjk$ clang-format -dump-config -style=fcebron4
+kjkmacpro:sumatrapdf kjk$ clang-format -dump-config -style=4spaces
 ---
 Language:        Cpp
 # BasedOnStyle:  Chromium
