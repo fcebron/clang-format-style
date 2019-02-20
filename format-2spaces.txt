@@ -1,4 +1,4 @@
-kjkmacpro:sumatrapdf kjk$ clang-format -dump-config -style=Chromium
+kjkmacpro:sumatrapdf kjk$ clang-format -dump-config -style=fcebron2
 ---
 Language:        Cpp
 # BasedOnStyle:  Chromium
