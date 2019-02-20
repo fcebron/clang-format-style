@@ -1,16 +1,12 @@
-kjkmacpro:sumatrapdf kjk$ clang-format -dump-config -style=4spaces
----
-Language:        Cpp
-# BasedOnStyle:  Chromium
-AccessModifierOffset: -1
-ConstructorInitializerIndentWidth: 4
+AccessModifierOffset: 2
 AlignEscapedNewlinesLeft: true
-AlignTrailingComments: true
+AlignTrailingComments: false
 AllowAllParametersOfDeclarationOnNextLine: false
 AllowShortBlocksOnASingleLine: false
 AllowShortIfStatementsOnASingleLine: false
 AllowShortLoopsOnASingleLine: false
-AllowShortFunctionsOnASingleLine: Inline
+# AllowShortFunctionsOnASingleLine: Inline
+AllowShortFunctionsOnASingleLine: false
 AlwaysBreakTemplateDeclarations: true
 AlwaysBreakBeforeMultilineStrings: true
 BreakBeforeBinaryOperators: false
@@ -18,6 +14,7 @@ BreakBeforeTernaryOperators: true
 BreakConstructorInitializersBeforeComma: false
 BinPackParameters: false
 ColumnLimit:     80
+ConstructorInitializerIndentWidth: 4
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
 DerivePointerAlignment: false
 ExperimentalAutoDetectBinPacking: false
