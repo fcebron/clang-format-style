@@ -5,4 +5,4 @@
 ## Summary
 My personal config file for Clang-format!
 
- - [License](LICENSE.md)
+ - [License](LICENSE)
