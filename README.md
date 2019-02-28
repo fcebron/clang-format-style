@@ -10,7 +10,7 @@
 - Then copy the syle file of this repository into your project folder. Rename it as ".clang-format".
  - You just need to type the following command in the project's directory where the config file is stored:
  
-       find . -name '*.h' -or -name '*.hpp' -or -name '*.cpp' | xargs clang-format-6.0 -i -style=file $1
+       find . -name '*.h' -or -name '*.hpp' -or -name '*.cpp' -or -name '*.cc' | xargs clang-format-6.0 -i -style=file $1
  
 ## Summary
 My personal config file for Clang-format!
